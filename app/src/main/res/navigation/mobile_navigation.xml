@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_info">
+
+    <fragment
+        android:id="@+id/nav_bass"
+        android:name="com.example.melodiamusik.ui.bass.BassFragment"
+        android:label="Bass"
+        tools:layout="@layout/bass_fragment" />
+
+    <fragment
+        android:id="@+id/nav_gitar"
+        android:name="com.example.melodiamusik.ui.gitar.GitarFragment"
+        android:label="Gitar"
+        tools:layout="@layout/gitar_fragment" />
+
+    <fragment
+        android:id="@+id/nav_info"
+        android:name="com.example.melodiamusik.ui.info.InfoFragment"
+        android:label="Tentang Aplikasi"
+        tools:layout="@layout/info_fragment" />
+
+    <fragment
+        android:id="@+id/nav_keyboard"
+        android:name="com.example.melodiamusik.ui.keyboard.KeyboardFragment"
+        android:label="Keyboard"
+        tools:layout="@layout/keyboard_fragment" />
+
+</navigation>
